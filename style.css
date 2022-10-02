@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background-color: #040815;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 174px;
+    background-color: #040815;
+    color: aliceblue;
+}
+
+header nav p {
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    width: 200px;
+}
+
+header nav ul li {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+img:hover{
+    size: 150%;
+}
+
+li:hover {
+    transition: 400ms;
+    color: orangered;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: orangered;
+}
+
+a :focus-visible{
+    color: orangered;
+    text-decoration: #e54a35;
+}
+
+div.pattern {
+    height: 300px;
+    background-image: url(./IMG/pattern_1.jpg);
+    background-position: cover;
+    background-position: static;
+    background-size: 110%;
+    padding: 4em;
+    
+}
+
+
+div.pattern h2 {
+    text-transform: uppercase;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    text-align: center;
+    color: #e54a35;
+    font-size: 1rem;
+    font-weight: 500;
+    
+    
+}
+
+div.pattern h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: aliceblue;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 25px;
+    
+}
