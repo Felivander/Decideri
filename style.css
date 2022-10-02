@@ -9,7 +9,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif ;
-    background-color: #040815;
+    background-color: aliceblue;
 }
 
 header nav {
@@ -17,8 +17,8 @@ header nav {
     justify-content: space-around;
     align-items: center;
     height: 174px;
-    background-color: #040815;
-    color: aliceblue;
+    background-color: aliceblue;
+    color: #040815;
 }
 
 header nav p {
@@ -47,7 +47,7 @@ li:hover {
 }
 
 a {
-    color: aliceblue;
+    color: #040815;
     text-decoration: none; 
 }
 
@@ -85,7 +85,7 @@ div.pattern h2 {
 div.pattern h1 {
     text-transform: capitalize;
     text-align: center;
-    color: aliceblue;
+    color: #040815;
     font-size: 5rem;
     font-weight: 100;
     font-family: Georgia, 'Times New Roman', Times, serif;
