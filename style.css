@@ -101,3 +101,59 @@ ul.num li a {
 ul.num li a:hover {
     color: #040815;
 }
+
+main {
+    padding: 70px;
+}
+
+main div.jorge {
+    display: flex;
+}
+
+div.desc {
+    width: 50rem;
+    padding: 17px;
+    
+}
+
+div.jorge h3{
+    font-size: 2rem;
+}
+
+div.desc h3 {
+    padding-bottom: 20px;
+}
+
+div.desc p {
+    padding-bottom: 20px;
+}
+
+div.profile {
+    width: 30rem;
+    padding: 17px;
+    
+}
+
+div.profile h3 {
+    padding-bottom: 20px;
+    
+}
+
+div.profile ul {
+    padding-bottom: 20px;
+}
+
+div.profile p {
+    padding-bottom: 20px;
+    color: #e54a35;
+    text-transform: uppercase;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+div.profile h4 {
+    padding-bottom: 20px;
+}
+
+div.profile img {
+    height: 40vh;
+}
