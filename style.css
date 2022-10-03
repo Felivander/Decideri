@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
 
 
 * {
@@ -8,16 +9,17 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    background-color: aliceblue;
+    font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
 }
 
 header nav {
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 174px;
-    background-color: aliceblue;
+    background-color: #f2f2f2;
     color: #040815;
 }
 
@@ -85,10 +87,17 @@ div.pattern h2 {
 div.pattern h1 {
     text-transform: capitalize;
     text-align: center;
-    color:aliceblue;
+    color:#f2f2f2;
     font-size: 5rem;
     font-weight: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 25px;
     
+}
+
+ul.num li a {
+    color: #e54a35;
+}
+
+ul.num li a:hover {
+    color: #040815;
 }
