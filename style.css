@@ -62,7 +62,6 @@ a :focus-visible{
 
 div.pattern {
     height: 300px;
-    color:aliceblue;
     background-image: url(./IMG/pattern_1.jpg);
     background-position: cover;
     background-position: static;
@@ -86,7 +85,7 @@ div.pattern h2 {
 div.pattern h1 {
     text-transform: capitalize;
     text-align: center;
-    color: #040815;
+    color:aliceblue;
     font-size: 5rem;
     font-weight: 100;
     font-family: Georgia, 'Times New Roman', Times, serif;
